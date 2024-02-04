@@ -1,5 +1,4 @@
 # Könyvmánia webshop webalkalmazás
-# Webfejlesztési keretrendszerek kurzusra készített kötelező programom
 ## Egyetemi önálló projektmunka
 
 Megvalósításhoz használat eszközök:
