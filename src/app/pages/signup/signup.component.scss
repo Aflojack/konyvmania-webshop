@@ -1,0 +1,33 @@
+.main_component {
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+form div,span {
+  padding: 5px 5px 5px 5px;
+}
+
+form {
+  display: inline-grid;
+  width: 80%;
+  align-self: center;
+}
+
+input{
+  width: auto;
+}
+
+.subform{
+  display: inline-grid;
+}
+
+.error{
+  color:#ff0000;
+}

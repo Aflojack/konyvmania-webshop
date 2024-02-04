@@ -1,0 +1,23 @@
+table{
+  width: 100%;
+}
+
+*{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.header td{
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+
+mat-form-field{
+  height: 75px;
+  padding: 10px 10px 10px 10px;
+}
+
+mat-form-field button{
+  height: auto;
+}

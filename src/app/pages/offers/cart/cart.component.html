@@ -1,0 +1,29 @@
+<div>
+  <h1>Eddigi rendelések: </h1>
+  <!--<mat-form-field>
+    <mat-label for="torol">Töröl: </mat-label>
+    <input matInput type="text" [formControl]="orderID">
+</mat-form-field>-->
+<mat-form-field appearance="fill">
+  <mat-select [formControl]="orderID">
+      <mat-option *ngFor="let obj of orders" [value]="obj.orderID">{{obj.orderID}}</mat-option>
+  </mat-select>
+</mat-form-field>
+<button mat-raised-button color="warn" (click)="deleteOrder()">Töröl</button>
+  <table>
+    <tr class="header">
+      <td>Rendelési szám</td>
+      <td>ISBN</td>
+      <td>Szerző</td>
+      <td>Cím</td>
+      <td>Ár</td>
+    </tr>
+    <tr *ngFor="let i of orders">
+      <td>{{i.orderID}}</td>
+      <td>{{i.isbn}}</td>
+      <td>{{getBook(i.isbn)?.szerzo}}</td>
+      <td>{{getBook(i.isbn)?.cim}}</td>
+      <td>{{getBook(i.isbn)?.ar}} Ft</td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,23 @@
+.main_component {
+  height: 75vh;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.review-box{
+  background-color: burlywood;
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+}
+
+.review{
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+}

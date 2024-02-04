@@ -1,0 +1,20 @@
+<div>
+  <h1 id="konyv-info">{{actual?.szerzo}}: {{actual?.cim}} <span *ngIf="actual?.sorozat!==''">({{actual?.sorozat}})</span></h1>
+  <div class="container">
+    <img [src]="loadedImage" alt="{{actual?.isbn}}.jpg" class="kep">
+    <div class="info">
+      <div>
+        <p id="oldal">{{actual?.oldalszam}} oldal.</p>
+        <p id="bemutatas">{{actual?.bemutatas}}</p>
+      </div>
+      <div>
+        <p id="ar">{{actual?.ar}} Ft</p>
+      </div>
+    </div>
+  </div>
+  <div class="gombok">
+    <button mat-flat-button color="warn" (click)="back()">Vissza</button>
+    <button mat-flat-button color="warn" (click)="order()">Rendelés</button>
+    <button mat-flat-button color="warn" (click)="next()">Tovább</button>
+  </div>
+</div>

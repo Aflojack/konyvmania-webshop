@@ -1,0 +1,4 @@
+<div class="main_container">
+  <app-catalog (isOrderEmpty)="showCart($event)"></app-catalog>
+  <app-cart *ngIf="show" (isOrderEmpty)="showCart($event)"></app-cart>
+</div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "konyvwebshop-projekt-2023": {
+      "hosting": {
+        "konyv-webshop": [
+          "konyvwebshop-projekt-2023"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "konyvwebshop-projekt-2023"
+  }
+}

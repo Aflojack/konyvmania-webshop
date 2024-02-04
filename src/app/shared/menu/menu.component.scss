@@ -1,0 +1,20 @@
+$linkColor:white;
+$linkColorOnEvent:rgb(255, 196, 0);
+
+a {
+  text-decoration: none;
+  color: $linkColor;
+}
+
+a:hover, a:active {
+  color: $linkColorOnEvent;
+}
+
+.nav-items{
+  list-style: none;
+}
+
+mat-sidenav-container{
+  height: 70px;
+  background-color: rgba(139, 56, 0, 0.836);
+}

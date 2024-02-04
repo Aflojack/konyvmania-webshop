@@ -1,0 +1,14 @@
+<div>
+  <p>A felhasználó neved:</p><p id="felhasznalo"></p>
+  <mat-form-field>
+    <mat-label for="comment">Vélemény (min:10):</mat-label>
+    <input matInput type="text" [formControl]="comment">
+  </mat-form-field>
+  <span>
+    <span class="gomb"><button mat-raised-button color="warn" (click)="submit()">Közzététel</button></span>
+    <span *ngIf="isError">
+      <p id="error">{{error}}</p>
+    </span>
+
+  </span>
+</div>
