@@ -1,4 +1,4 @@
-# Könyvmánia webshop webalkalmazás
+# Könyvmánia webshop demó webalkalmazás
 ## Egyetemi önálló projektmunka
 
 Megvalósításhoz használat eszközök:
